@@ -57,7 +57,7 @@ passwd <username>
 {% endhighlight bash %}
 
 
-For graphic stuff we installed `xorg-server xf86-video-intel sddm htop plasma plasma-nm firefox konsole git fakeroot tlp kwrite konsole dolphin tlp` and enable the services:
+For graphic stuff we installed `xorg-server sddm htop plasma plasma-nm firefox konsole git fakeroot tlp kwrite konsole dolphin tlp` and enable the services:
 {% highlight bash %}
 systemctl enable sddm
 systemctl enable NetworkManager
