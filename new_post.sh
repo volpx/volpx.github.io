@@ -8,7 +8,7 @@ if [ "$#" -lt 1 ]; then
 	exit -1
 fi
 
-filename="$(date +%F)-$(echo $1 | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g').markdown"
+filename="$(date +%F)-$(echo $1 | tr '[:upper:]' '[:lower:]' | sed 's/ /-/g' | sed 's/[^a-zA-Z0-9\x2d]//g').markdown"
 
 tag1="update"
 if [ "$#" -gt 1 ]; then
