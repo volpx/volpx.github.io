@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Filippo Volpe site
-email: filippovolpe98@gmail.com
+title: Volpx
+email: filippovolpe98 AT gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal site of Filippo Volpe.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -52,3 +52,9 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - run_local.sh
+  - new_post.sh
+  - now_date_post.sh
+  
+# Minima configuration
+minima:
+    date_format: "%d/%m/%Y"
