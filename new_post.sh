@@ -1,7 +1,9 @@
 #!/bin/bash
+# Create a new post with `now` time tag
+# sintax: ./new_post.sh "Title" [tags]
+
 set -e
 
-# sintax: ./new_post.sh "Title" [tags]
 
 if [ "$#" -lt 1 ]; then
 	echo Not title provided
