@@ -26,6 +26,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://volpx.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: VilippoFolpe
 github_username: volpx
+gitlab_username: volpx
+linkedin_username: volpx
 
 # Build settings
 markdown: kramdown
@@ -53,7 +55,7 @@ exclude:
   - vendor/ruby/
   - run_local.sh
   - new_post.sh
-  - now_date_post.sh
+  - now_date_post.py
   
 # Minima configuration
 minima:

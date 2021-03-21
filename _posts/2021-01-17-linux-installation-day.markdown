@@ -2,7 +2,7 @@
 layout: post
 title:  "Linux installation day"
 date:   2021-01-17 09:02:00 +0100
-categories: update
+categories: linux
 ---
 # ArchLinux on Dell precision M4600
 Gonna help install archlinux on a friends laptop, he already uses Linux for some years but never installed it himself and he often asked me questions on how the underlying system works so arch is surprisingly teaching friendly in each step of it's installation. It's a Dell Precision M4600, and already two days ago we tried booting a UEFI usb with no luck. Latest live archlinux is ready, data is safe. Found [this](https://wiki.archlinux.org/index.php/Dell_Precision_M4600), enabled UEFI but still no luck with the instructions provided. 
