@@ -1,4 +1,4 @@
 baseURL = 'https://volpx.github.io/'
 languageCode = 'en-us'
 title = 'Filippo Volpe Site'
-theme = 'terminal'
+theme = 'ananke'
