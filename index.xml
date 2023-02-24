@@ -2,4 +2,37 @@
 search it on CTAN Download the zip extract it in $TEXMFHOME/tex/latex/&amp;lt;packagename&amp;gt;/ I have export TEXMFHOME=$LOCAL_USR/share/texmf/ in the environment. cd to that directory Run pdflatex &amp;lt;packagename&amp;gt;.ins Run texhash Now the package should be available to pdflatex.
 If you are using VSCode with &amp;ldquo;LaTeX Workshop&amp;rdquo; extension then you have to tell it about the environment variable $TEXMFHOME.
 Similarly to what is explained here.
-go to extension settings search tools edit json add the &amp;rsquo;env&amp;rsquo; variable to match your $TEXMFHOME variable The reason you have to use the absolute path is that the extension can&amp;rsquo;t expand the variable as written in it&amp;rsquo;s wiki</description></item><item><title>My First Post</title><link>https://volpx.github.io/posts/my-first-post/</link><pubDate>Sat, 07 Jan 2023 20:14:10 +0100</pubDate><guid>https://volpx.github.io/posts/my-first-post/</guid><description>My first post Ciao, this my n-th attempt of having a easy static site. Jekyll didn&amp;rsquo;t work form me, most .md files where not readable directly and Hugo seems better built. Plus it&amp;rsquo;s made in Go which I much prefer over Ruby just from how much simpler had been to come to this point.</description></item></channel></rss>
+go to extension settings search tools edit json add the &amp;rsquo;env&amp;rsquo; variable to match your $TEXMFHOME variable The reason you have to use the absolute path is that the extension can&amp;rsquo;t expand the variable as written in it&amp;rsquo;s wiki</description><content>&lt;p>To add a latex package like &lt;a href="https://www.ctan.org/pkg/tikz-timing">tikz-timing&lt;/a>.&lt;/p>
+&lt;ol>
+&lt;li>search it on &lt;a href="https://www.ctan.org">CTAN&lt;/a>&lt;/li>
+&lt;li>Download the zip&lt;/li>
+&lt;/ol>
+&lt;figure class="left" >
+&lt;img src="./Screenshot_20230129_180510.png" />
+&lt;/figure>
+&lt;ol start="3">
+&lt;li>extract it in &lt;code>$TEXMFHOME/tex/latex/&amp;lt;packagename&amp;gt;/&lt;/code>
+I have &lt;code>export TEXMFHOME=$LOCAL_USR/share/texmf/&lt;/code> in the environment.&lt;/li>
+&lt;li>&lt;code>cd&lt;/code> to that directory&lt;/li>
+&lt;li>Run &lt;code>pdflatex &amp;lt;packagename&amp;gt;.ins&lt;/code>&lt;/li>
+&lt;li>Run &lt;code>texhash&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>Now the package should be available to pdflatex.&lt;/p>
+&lt;p>If you are using VSCode with &amp;ldquo;LaTeX Workshop&amp;rdquo; extension then you have to tell it about the environment variable &lt;code>$TEXMFHOME&lt;/code>.&lt;/p>
+&lt;p>Similarly to what is explained &lt;a href="https://tex.stackexchange.com/questions/526320/how-can-i-get-vscodes-latex-workshop-to-find-the-right-installation-of-tex">here&lt;/a>.&lt;/p>
+&lt;ol>
+&lt;li>go to extension settings&lt;/li>
+&lt;li>search tools&lt;/li>
+&lt;li>edit json&lt;/li>
+&lt;li>add the &amp;rsquo;env&amp;rsquo; variable to match your &lt;code>$TEXMFHOME&lt;/code> variable
+&lt;figure class="left" >
+&lt;img src="./Screenshot_20230129_193346.png" />
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>The reason you have to use the absolute path is that the extension can&amp;rsquo;t expand the variable as written in it&amp;rsquo;s &lt;a href="https://github.com/James-Yu/LaTeX-Workshop/wiki/Install">wiki&lt;/a>
+&lt;figure class="left" >
+&lt;img src="./Screenshot_20230124_165523.png" />
+&lt;/figure>
+&lt;/p></content></item><item><title>My First Post</title><link>https://volpx.github.io/posts/my-first-post/</link><pubDate>Sat, 07 Jan 2023 20:14:10 +0100</pubDate><guid>https://volpx.github.io/posts/my-first-post/</guid><description>My first post Ciao, this my n-th attempt of having a easy static site. Jekyll didn&amp;rsquo;t work form me, most .md files where not readable directly and Hugo seems better built. Plus it&amp;rsquo;s made in Go which I much prefer over Ruby just from how much simpler had been to come to this point.</description><content>&lt;h1 id="my-first-post">My first post&lt;/h1>
+&lt;p>Ciao, this my n-th attempt of having a easy static site. Jekyll didn&amp;rsquo;t work form me, most &lt;code>.md&lt;/code> files where not readable directly and Hugo seems better built. Plus it&amp;rsquo;s made in Go which I much prefer over Ruby just from how much simpler had been to come to this point.&lt;/p></content></item></channel></rss>
